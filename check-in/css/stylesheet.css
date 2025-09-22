@@ -1,0 +1,14 @@
+body {
+    background: rgb(194, 194, 194);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: gray;
+    border: 10px solid blue;
+    width: 300px;                          
+}
