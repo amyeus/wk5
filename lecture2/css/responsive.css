@@ -43,6 +43,10 @@
     border:none;
     filter:none;
   }
+
+  .grid > div:nth-of-type(even) {
+    background: yellow;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -55,6 +59,10 @@
   .grid > div:nth-child(3n) {
     grid-column: auto;
     width: auto
+  }
+
+  .grid > div:nth-of-type(even) {
+    background: #f2f2f2;
   }
 
   .gallery {
@@ -111,6 +119,9 @@
   .grid > div {
     background: #111;
     border: 1px solid #EB5B00;
-    
+  }
+
+  .grid > div:nth-child(even) {
+    background: #f2f2f2;
   }
 }
